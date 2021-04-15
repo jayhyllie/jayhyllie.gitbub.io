@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joakim Sundman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><img src="http://ostersundsrevyn.com/wp-content/uploads/2021/04/Logotyp.png"><a href="home.html"></a></h2>
+        <div class="toggle"></div>
+        </header>
+    <section class="block">
+        <div class="title">
+            <h1>Services I can help you with</h1>
+            
+        </div>
+        <div class="services">
+            <div class="service">
+                <div class="icon">
+                    <img src="http://ostersundsrevyn.com/wp-content/uploads/2021/03/pngwing.com-5.png" alt="html" />
+                </div>
+                <h2>HTML</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor 
+                id iure suscipit odio ratione pariatur ab molestias, nulla sunt.
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <img src="http://ostersundsrevyn.com/wp-content/uploads/2021/03/pngwing.com_.png" alt="css" />
+                </div>
+                <h2>CSS</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor 
+                id iure suscipit odio ratione pariatur ab molestias, nulla sunt.
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <img src="https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg" alt="javaSpript" />
+                </div>
+                <h2>JavaSpript</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor 
+                id iure suscipit odio ratione pariatur ab molestias, nulla sunt.
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <img src="http://ostersundsrevyn.com/wp-content/uploads/2021/03/pngwing.com-2.png" alt="C#" />
+                </div>
+                <h2>.NET</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor 
+                id iure suscipit odio ratione pariatur ab molestias, nulla sunt.
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <img src="http://ostersundsrevyn.com/wp-content/uploads/2021/03/pngwing.com-3.png" alt="Python" />
+                </div>
+                <h2>Python</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor 
+                id iure suscipit odio ratione pariatur ab molestias, nulla sunt.
+            </div>
+            <div class="service">
+                <div class="icon">
+                    <img src="http://ostersundsrevyn.com/wp-content/uploads/2021/03/pngwing.com-4.png" alt="SQL" />
+                </div>
+                <h2>SQL</h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor 
+                id iure suscipit odio ratione pariatur ab molestias, nulla sunt.
+            </div>
+        </div>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+   <script>
+       const menuToggle = document.querySelector('.toggle')
+       const block = document.querySelector('.block')
+       
+       menuToggle.addEventListener('click', () =>{
+           menuToggle.classList.toggle('active')
+           block.classList.toggle('active')
+       })
+   </script> 
+</body>
+</html>

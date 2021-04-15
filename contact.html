@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joakim Sundman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><img src="https://clipartart.com/images600_/white-home-icon-transparent-clipart-7.png"><a href="home.html">JoakimSundman</a></h2>
+        <div class="toggle"></div>
+        </header>
+    <section class="block">
+    
+        <div class="title">
+            <h1>Contact Me</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Odio voluptatem sunt aut tenetur veniam ullam suscipit sit 
+                sed saepe. Eaque in, odio consequuntur quae alias voluptas! 
+            </p>
+
+            <img src="https://scontent.fcph3-1.fna.fbcdn.net/v/t1.6435-9/66010747_10157036124367535_5108932584356708352_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=YDYHR452NtwAX--nbgl&_nc_ht=scontent.fcph3-1.fna&oh=fa3e776931ef5cd83ce645712e911d3e&oe=608B8D8A">
+        </div>        
+        <div class="contact">
+          <div class="contact-form">
+              <form>
+                  <div class="row">
+                      <div class="input50">
+                          <input type="text"
+                          placeholder="First Name">
+                      </div>
+                      <div class="input50">
+                        <input type="text"
+                        placeholder="Last Name">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input50">
+                        <input type="text"
+                        placeholder="Email">
+                    </div>
+                    <div class="input50">
+                      <input type="text"
+                      placeholder="Subject">
+                  </div>
+                  <div class="row">
+                      <div class="input100">
+                          <textarea placeholder="Message"></textarea>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="input100">
+                          <input type="submit" value="Send">
+                      </div>
+                  </div>
+                </div>
+              </form>
+          </div> 
+          <div class="contact-info">
+              <div class="info-box">
+                <img src="" class="contact-icon" alt="">
+                <div class="details">
+                    <h4>Email</h4>
+                    <a href="mailto:joakimsundman89@gmail.com">joakimsundman89@gmail.com</a>
+                </div>
+            </div>
+            <div class="info-box">
+                <img src="" class="contact-icon" alt="">
+                <div class="details">
+                    <h4>Call</h4>
+                    <a href="tel:+46708875106">+46 70 887 51 06</a>
+                </div>
+            </div>
+          </div> 
+        </div>       
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+   <script>
+       const menuToggle = document.querySelector('.toggle')
+       const block = document.querySelector('.block')
+
+       menuToggle.addEventListener('click', () =>{
+           menuToggle.classList.toggle('active')
+           block.classList.toggle('active')
+       })
+   </script> 
+</body>
+</html>
